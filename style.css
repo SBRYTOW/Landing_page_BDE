@@ -1,0 +1,21 @@
+/*selecteur {
+  propriété-css: valeur;
+}*/
+body {
+  background-color: grey;
+}
+
+.centrage
+{
+  text-align: center;
+  color: white;
+}
+
+
+#conteneur
+{
+  display: flex;
+  justify-content: space-around;
+  width: 1100px;
+  margin: auto;
+}
