@@ -1,0 +1,48 @@
+/*selecteur {
+  propriété-css: valeur;
+}*/
+body {
+  background-color: rgb(115, 194,251);
+}
+
+.centrage
+{
+  text-align: center;
+  color: white;
+}
+
+
+#conteneur
+{
+  display: flex;
+  justify-content: space-around;
+  width: 1100px;
+  margin: auto;
+}
+
+#petitTexte
+{
+  width: 700px;
+}
+
+h2 
+{
+    text-align: center;
+    color: white;
+}
+
+.legendePhoto
+{
+    font-style: italic;
+    border-color: cadetblue
+}
+
+#conteneur2
+{
+    width: auto
+}
+
+.logoRequin
+{
+    width: 70px;
+}
