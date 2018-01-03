@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>CROISIERE BDE requins Egypte Plongée sous-marine</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+    
+  <body>
+    <div id="conteneurGlobal">
+        <div style="background-image:url(banc-marteau.jpg)">
+            <img src="photoTel.jpg" class="telephone" alt="photo téléphone">
+        </div>
+        <div class="element">
+            <h1>Login</h1>
+            <p>Don't have an account ? <a href="creaCompte.html"></a> <span class="account">Create your account</span>.</p>
+            <form action="traitement.php" method="post">
+                <div>
+                <input type="email" id="mail" placeholder="Your email" />
+                </div>
+                <div>
+                <input type="password" id="mdp" placeholder="Your password" />
+                </div>
+                <div id="button">
+                <button type="submit">Login</button>
+                </div>
+            </form>
+        </div>
+    </div>
+  </body>
+</html>

@@ -1,8 +1,13 @@
 /*selecteur {
   propriété-css: valeur;
 }*/
-body {
-  background-color: rgb(115, 194,251);
+body 
+{
+    background-image: url("banc-marteau.jpg");
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-size: contain;
+    
 }
 
 .centrage
@@ -12,12 +17,16 @@ body {
 }
 
 
-#conteneur
+#conteneurGlobal
 {
   display: flex;
   justify-content: space-around;
-  width: 1100px;
   margin: auto;
+}
+
+#conteneur1
+{
+    width: 70%;
 }
 
 #petitTexte
@@ -55,3 +64,26 @@ h2
         background-color: black;
         font-size: 1.2em;
     }
+    
+    form div + div {
+    margin-top: 1em;
+}
+
+.element
+{
+    margin-top: 7em;
+    
+}
+
+button
+{background-color:forestgreen;
+border-radius: 5px;
+}
+
+#mail
+{border-radius: 5px;
+}
+
+#mdp
+{border-radius: 5px;
+}

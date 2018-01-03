@@ -2,62 +2,27 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta charset="utf-8">*
+ 
     <title>CROISIERE BDE requins Egypte Plongée sous-marine</title>
     <link rel="stylesheet" type="text/css" href="style.css"/>
   </head>
     
   <body>
-    <div class="centrage">
+    <div id="conteneurGlobal" class="centrage">
+        <div id="conteneur1">
         <h1> BDE CRUISER : PLONGEZ AVEC LES REQUINS EN MER ROUGE</h1>
         <h2>Partez en croisière entre amis</h2>
-        <p> Embarquez sur l'un de nos navires de croisière et profitez de 15 jours de navigation en Mer Rouge. <br/>
+        <section> Embarquez sur l'un de nos navires de croisière et profitez de 15 jours de navigation en Mer Rouge. <br/>
         3 spots où vous pourrez plonger avec les requins:
             <ol>
                 <li>Les îles Brothers</li>
                 <li>Deadalus</li>
                 <li>Elphinstone</li>
             </ol>
-    </div>
-    
-        <h2> Inscrivez-vous dès maintenant pour partir cet hiver !</h2>
-      
-        <form id="formulaire" method="post" action="index.html">
-            <div>
-                <label for="prenom">Prénom :</label>
-                <input type="text" id="prenom"/>
-            </div>
-            <div>
-                <label for="nom">Nom :</label>
-                <input type="text" id="nom"/>
-            </div>            
-            <div>
-                <label for="niveau">Niveau</label>       <select name="niveau" id="niveau">
-                    <option value="discover">Discover</option>
-                    <option value="openWater">Open Water</option>
-                    <option value="advanced">Advanced</option>
-                    <option value="rescueDiver">Rescue Diver</option>
-                <option value="diveMaster">Dive Master</option>
-                </select>
-            </div>               
-            <div>
-                <label for="courriel">Courriel :</label>
-                <input type="email" id="courriel" />
-            </div>
-            <div>
-                <label for="message">Message :</label>
-                <textarea id="message"></textarea>
-            </div>
-
-            <div class="button">
-                <button type="submit">Envoyer votre message</button>
-            </div>
-        </form>
-      </p>
+      </section>
 
 
 <br/>
-  <div id="conteneur">
       <div class="élément">
         <img src="img Steven Marteau.jpg" width="150px"/>
       </div>
@@ -67,7 +32,7 @@
 
         </p>
       </div>
-    </div>
+    
 
     <div id="conteneur">
       <div class="élément">
@@ -91,7 +56,7 @@
         <img src="requinrenard.jpg" width="200px"/>
         <h4>Requins Renard</h4>
         <p id="legendePhoto">
-          Vellet non rei conficiat conficiat.</br>
+          Vellet non rei conficiat conficiat.
           Vellet non rei conficiat conficiat.
         </p>
       </div>
@@ -100,7 +65,7 @@
         <img src="dauphin.jpg" width="200px"/>
         <h4>Dauphins</h4>
         <p id="legendePhoto">
-          Vellet non rei conficiat conficiat.</br>
+          Vellet non rei conficiat conficiat.
           Vellet non rei conficiat conficiat.
         </p>
       </div>
@@ -109,15 +74,50 @@
         <img src="marteau.jpg" width="200px"/>
         <h4> Requins Marteaux</h4>
         <p id="legendePhoto">
-          Vellet non rei conficiat conficiat.</br>
+          Vellet non rei conficiat conficiat.
           Vellet non rei conficiat conficiat.
       </div>
-    </div>
-
-
-    <div id="conteneur2">
-         <img class="logoRequin" src="logoRequin.png"/>
-           <img class="logoRequin" src="logoRequin.png"/>   <img class="logoRequin" src="logoRequin.png"/>   <img class="logoRequin" src="logoRequin.png"/>   <img class="logoRequin" src="logoRequin.png"/>   <img class="logoRequin" src="logoRequin.png"/>   <img class="logoRequin" src="logoRequin.png"/>   <img class="logoRequin" src="logoRequin.png"/>   <img class="logoRequin" src="logoRequin.png"/>   <img class="logoRequin" src="logoRequin.png"/>
-    </div>
     
+    
+        
+                <div id="conteneur2">
+
+ <h2> Inscrivez-vous dès maintenant pour partir cet hiver !</h2>
+      
+        <form id="formulaire" method="post" action="traitement.php">
+            <div>
+                <label for="prenom">Prénom :</label>
+                <input type="text" id="prenom" placeholder="Jacques-Yves" />
+            </div>
+            <div>
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom"/ placeholder="COUSTEAU">
+            </div>            
+            <div>
+                <label for="niveau">Niveau</label>       <select name="niveau" id="niveau" placeholder="none">
+                    <option value="discover">Discover</option>
+                    <option value="openWater">Open Water</option>
+                    <option value="advanced">Advanced</option>
+                    <option value="rescueDiver">Rescue Diver</option>
+                <option value="diveMaster">Dive Master</option>
+                </select>
+            </div>               
+            <div>
+                <label for="courriel">Courriel :</label>
+                <input type="email" id="courriel" />
+            </div>
+            <div>
+                <label for="message">Message :</label>
+                <textarea id="message"></textarea>
+            </div>
+
+            <div class="button">
+                <button type="submit">Envoyer votre message</button>
+            </div>
+        </form>
+                </div>
+
+        </div>
+
+
 
